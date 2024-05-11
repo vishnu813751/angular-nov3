@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% extends 'index.html' %}
+{% load static %}
+{% block content %}
+<div class="container">
+    <center>
+        <form method="POST">
+            {% csrf_token %}
+        </form>
+    </center>
+</div>
+<body>
+
+</body>
+{% endblock %}
+</html>

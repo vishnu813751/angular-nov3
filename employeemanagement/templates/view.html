@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Details</title>
+</head>
+<body>
+    <h2>Employee Details</h2>
+    <p>Employee ID: {{ employee.eid }}</p>
+    <p>Name: {{ employee.ename }}</p>
+    <p>Email: {{ employee.eemail }}</p>
+    <p>Contact: {{ employee.econtact }}</p>
+    <!-- Add more details as needed -->
+</body>
+{% endblock %}
